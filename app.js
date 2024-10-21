@@ -1,4 +1,6 @@
 
+//                       section no 1
+
 let player1;
 let player2;
 
@@ -18,6 +20,8 @@ if (input === "head") {
     alert("Invalid input")
 }
 
+//                        section no 2
+
 function toss() {
     let text = document.getElementById("text");
 
@@ -31,6 +35,8 @@ function toss() {
         btn1.setAttribute("disabled", false);
     }
 }
+
+//                         section no 3
 
 function game() {
 
@@ -50,7 +56,6 @@ function game() {
         result.innerText = "You won";
 
     }
-
     else if (random1 !== 6 && random2 !== 6) {
         btn1.setAttribute("enabled", true);
         btn2.setAttribute("disabled", false);
@@ -60,3 +65,5 @@ function game() {
     }
 
 }
+
+//                           completed
